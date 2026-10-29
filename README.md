@@ -113,7 +113,7 @@ MyBatis-Plus Generator 的使用示例（`BankCodeGenerator`），按库表生�
 仓库**没有根 `pom.xml`**，各服务独立构建；公共父 POM 是 `xuecheng-plus-parent`（需先 `install`）。
 
 ```
-xuechengplus/
+xuecheng-plus/
 ├── xuecheng-plus-parent/            父 POM：统一依赖版本、编译插件、资源过滤
 ├── xuecheng-plus-base/              公共基础包：RestResponse/PageResult、异常体系、工具类
 │                                    （JsonUtil、RSAUtil、MD5Util、HttpUtil、VideoUtil、Mp4VideoUtil…）
